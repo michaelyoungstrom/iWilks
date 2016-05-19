@@ -8,10 +8,7 @@ https://en.wikipedia.org/wiki/Wilks_Coefficient
 
 The application is built using Swift.
 
-TO DO:
-Create an icon
-Add a UIScrollView to fit iPhone 4s
-Publish in the App Store
+TO DO: Create an icon, add a UIScrollView to fit iPhone 4s, publish to the App Store
 
 ![Alt text](/Wilks Calculator/Assets.xcassets/screenshot.png "Screenshot")
 
