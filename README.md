@@ -13,6 +13,6 @@ Create an icon
 Add a UIScrollView to fit iPhone 4s
 Publish in the App Store
 
-![Alt text width = "50" height = "100"](/Wilks Calculator/Assets.xcassets/screenshot.png "Screenshot")
+<img src=”/Wilks Calculator/Assets.xcassets/screenshot.png” width=”100″ height=”200″ alt=”Litmus”>
 
 
