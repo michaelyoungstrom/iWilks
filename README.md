@@ -13,6 +13,6 @@ Create an icon
 Add a UIScrollView to fit iPhone 4s
 Publish in the App Store
 
-![Alt text](iWilks/Wilks Calculator/Assets.xcassets/screenshot.png "Screenshot")
+![Alt text](/Wilks Calculator/Assets.xcassets/screenshot.png "Screenshot")
 
 
