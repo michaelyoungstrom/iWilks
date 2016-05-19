@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "21A849E6FA159C713FE4085AC24635A3FD667F2D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "21A849E6FA159C713FE4085AC24635A3FD667F2D" : 0,
+    "07ABFB5E5E5BFFE1B7D28E85993F1BF7DDB3FA72" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "794B2515-8006-4102-97B3-9C1BA787C96C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "21A849E6FA159C713FE4085AC24635A3FD667F2D" : "Wilks%20Calculator\/",
+    "07ABFB5E5E5BFFE1B7D28E85993F1BF7DDB3FA72" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Wilks Calculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Wilks Calculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:michaelyoungstrom\/GPA-calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07ABFB5E5E5BFFE1B7D28E85993F1BF7DDB3FA72"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaelyoungstrom\/iWilks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21A849E6FA159C713FE4085AC24635A3FD667F2D"
+    }
+  ]
+}

@@ -29,10 +29,14 @@ class ViewController: UIViewController {
         }
     }
     
+    //Create an instance of the model
     private var wilksModelInstance: WilksModel = WilksModel()
     
     //method triggered by pressing calculate!
     @IBAction private func calculateButton() {
+        
+        //if keyboard is open, close it
+        dismissKeyboard()
         
         //get arguments for Wilks from the view
         let unitChoice = poundsOrKilos.selectedSegmentIndex
@@ -45,7 +49,7 @@ class ViewController: UIViewController {
                 wilksModelInstance.calculateWilks(unitChoice, gender: genderChoice, bodyweight: bodyweight, weightLifted: weightLifted)
                 
                 displayValue = wilksModelInstance.wilksResult
-                wilksResult.hidden = false
+                //wilksResult.hidden = false
             }
             else {
                 
@@ -68,21 +72,37 @@ class ViewController: UIViewController {
         
     }
     
+    //Clear the result if an argument changes
+    @IBAction private func unitChange() {
+        wilksResult.text = " ";
+    }
+    
+    @IBAction private func genderChange() {
+        wilksResult.text = " ";
+    }
+    
+    @IBAction private func bodyweightChange() {
+        wilksResult.text = " ";
+    }
+    
+    @IBAction private func weightLiftedChange() {
+        wilksResult.text = " ";
+    }
+    
     func dismissKeyboard(){
         view.endEditing(true)
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let screenPressed: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        //if the screen is tapped, call dismissKeyboard()
+        let screenPressed: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
         view.addGestureRecognizer(screenPressed)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
